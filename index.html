@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster EPC - Fertility</title>
+    <!-- Fuentes CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content content__superior">
+            <div class="content__superior--title">
+                <h1>The rise in the parental absolute age difference and fertility outcomes in Spain</h1>
+                <p class="autores">J. Sebastian Ruiz-Santacruz, Cristina Suero, Francisco Viciana, Stanislao Mazzoni and Diego Ramiro Fariñas</p>  
+            </div>            
+        </div>
+        <div class="content content__question">Proin blandit tellus felis mauris elementum eu?</div>     
+        <div class="content content__main">            
+            <div class="content__main--overlay" id="chart-overlay"></div>
+            <div class="content__main--block explanation">
+                <p><i>* This figure represents ipsum dolor sit amet. Proin blandit tellus felis. Proin blandit tellus</i></p>
+            </div>
+            <div class="content__main--block results">
+                <h2>Results</h2>
+                <div class="b-results">
+                    <div class="b-results__block">
+                        <div class="chart"></div>
+                        <p class="text">Lorem ipsum dolor sit amet. Proin blandit tellus felis. Proin blandit tellus felis mauris elementum eu. Proin blandit tellus felis. Proin blandit tellus felis mauris elementum eu.</p>
+                    </div>
+                    <div class="b-results__block">
+                        <div class="chart"></div>
+                        <p class="text">Lorem ipsum dolor sit amet. Proin blandit tellus felis. Proin blandit tellus felis mauris elementum eu. Proin blandit tellus felis. Proin blandit tellus felis mauris elementum eu.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content__main--block hypothesis">
+                <h2>Hypothesis</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit tellus felis mauris elementum eu. Proin blandit tellus felis mauris elementum eu.</p>
+            </div>
+            <div class="content__main--block background">
+                <h2>Background</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elementum eu. Proin blandit tellus felis, eget pellentesque mauris elementum eu. Vivamus sollicitudin iaculis mi in scelerisque. Morbi urna magna, accumsan in viverra posuere, sodales vitae elit. Integer eget lorem tortor. In sagittis urna sapien, a rhoncus erat consectetur eu. Sed ultrices venenatis ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit tellus felis mauris elementum eu.</p>
+            </div>
+            <div class="content__main--block data">
+                <h2>Data & Methods</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit tellus felis mauris elementum eu. Proin blandit tellus felis mauris elementum eu.</p>
+            </div>
+            <div class="content__main--block discussion">
+                <h2>Discussion & Further</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit tellus felis, eget pellentesque mauris elementum eu. Vivamus sollicitudin iaculis mi in scelerisque. Morbi urna magna, accumsan in viverra posuere, sodales vitae elit. Integer eget lorem tortor. In sagittis urna sapien, a rhoncus erat consectetur eu.</p>
+            </div>
+            <img class="content__main--image iegd" src="./data/logo_IEGD.jpg" width="71.5" height="50" alt="Logo del IEGD">
+            <img class="content__main--image csic" src="./data/logotipo_csic_2.png" width="146" height="50" alt="Logo del CSIC">
+        </div>
+    </div>
+    <!-- Script base de D3 -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!-- Script para trabajar con archivos topoJson, geoJson y shapefiles -->
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+    <!-- Script que ofrece numerosas posibilidades de proyecciones geográficas (satellite o robinson, p.e.) -->
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <!-- Script que modifica las proyecciones y acerca territorios alejados del territorio 'principal' (Península y Canarias, p.e.) -->
+    <script src="https://unpkg.com/d3-composite-projections@1.2.0"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
