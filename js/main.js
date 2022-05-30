@@ -1,5 +1,5 @@
 //EJECUCIÓN FUNCIONES
-initOverlayChart();
+//initOverlayChart();
 
 function initOverlayChart() {
     d3.csv('../data/incrementos.csv', function (error, data) {
