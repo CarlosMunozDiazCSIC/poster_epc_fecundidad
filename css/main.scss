@@ -96,7 +96,7 @@ body {
 
             .main__hypothesis {
                 width: 70%;
-                background-color: hsla(281, 56, 33, .5);
+                background-color: hsla(281, 56, 33, .45);
                 padding: 4px;
                 border-radius: 2.5px;
             }
@@ -104,8 +104,9 @@ body {
         
         //Bloque central (con gráficos)
         &--central {
-            width: 100%;
+            width: 99%;
             height: 300px;
+            align-self: center;
 
             h2 {
                 text-align: center;
@@ -124,7 +125,7 @@ body {
                 &__block {
                     position: relative;
 
-                    width: 24%;
+                    width: 20%;
                     height: 276px;
 
                     display: flex;
@@ -137,6 +138,35 @@ body {
 
                     .text {
                         height: 142px;
+                    }
+
+
+                    //Diferencia bloques
+                    &.bigger {
+                        width: 28.25%;
+                    }
+                }
+
+                .line {
+                    position: absolute;
+                    background-color: hsla(281, 56, 33, .75);
+                    content: '';
+                    width: 1.5px;
+                    height: 215px;
+
+                    &.line1 {
+                        top: 170px;
+                        left: 208.5px;
+                    }
+
+                    &.line2 {
+                        top: 170px;
+                        left: 499.5px;
+                    }
+
+                    &.line3 {
+                        top: 170px;
+                        left: 791px;
                     }
                 }
             }
@@ -155,7 +185,7 @@ body {
                 width: 42%;
                 box-sizing: border-box;
                 padding: 4px;
-                background-color: hsla(281, 56, 33, .5);
+                background-color: hsla(281, 56, 33, .45);
                 border-radius: 2.5px;
 
                 h2 {
