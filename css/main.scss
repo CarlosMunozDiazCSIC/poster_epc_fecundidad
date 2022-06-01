@@ -95,10 +95,10 @@ body {
             }
 
             .main__hypothesis {
-                width: 70%;
-                background-color: hsla(281, 56, 33, .45);
-                padding: 4px;
-                border-radius: 2.5px;
+                //width: 80%;
+                // background-color: hsla(281, 56, 33, .45);
+                // padding: 4px;
+                // border-radius: 2.5px;
             }
         }
         
@@ -141,10 +141,19 @@ body {
 
                     .text {
                         height: 148px;
+
+                        span {display: block; font-size: 11px;}
+
+                        &.formula {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                        }
                     }
 
                     &.smaller {
-                        background-color: #cfcfcf;
+                        //background-color: #cfcfcf;
                     }
                 }
 
@@ -175,8 +184,9 @@ body {
 
         //Bloque inferior
         &--inferior {
-            width: 100%;
+            width: 99%;
             height: 94px;
+            align-self: center;
 
             //Disposición de elementos
             display: flex;
@@ -185,9 +195,9 @@ body {
             .main {
                 width: 42%;
                 box-sizing: border-box;
-                padding: 4px;
-                background-color: hsla(281, 56, 33, .45);
-                border-radius: 2.5px;
+                // padding: 4px;
+                // background-color: hsla(281, 56, 33, .45);
+                // border-radius: 2.5px;
 
                 h2 {
                     text-align: center;
@@ -225,7 +235,7 @@ body {
 
 //Textos
 h1 {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 h2 {
@@ -237,7 +247,7 @@ h3 {
 }
 
 p {
-    font-size: 11.5px;
+    font-size: 11px;
 
     &.autores,&.note {
         font-size: 13px;
